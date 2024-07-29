@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
+    <div class="page" aria-label="Página Rocket.sect">
         <header>
-            <nav>
-                <a href="#" id="logo">
+            <nav aria-label="Navegação principal">
+                <a href="#" id="logo" aria-label="Logo que refireciona para a página inicial" title="Rocket.sect">
                     <img src="./images/logo.svg" alt="Rocket.sect - Logo">
                 </a>
                 <ul>
@@ -23,20 +23,25 @@
         </header>
 
         <main>
+            <img src="./images/img1.png" alt="Avatar de uma mulher ao lado de um notebook com um símbolo de cadeado no canto superior direito.">
+
             <section class="text">
                 <h1>Seus dados estão <span>protegidos</span>?</h1>
-                <p>
-                    A informação é fundamental e de <strong>extrema importância</strong> para qualquer empresa.
-                </p>
-                <p>
-                    Aqui vai um <strong>texto</strong> como se fosse uma empresa de <span>segurança da informação</span> apresentando o seu produto e com o texto todo estilizado.
-                </p>
+                <article>
+                    <p>
+                        A informação é fundamental e de <strong>extrema importância</strong> para qualquer <br> empresa.
+                    </p>
+                    <p>
+                        Aqui vai um <strong>texto</strong> como se fosse uma empresa de <span>segurança da informação</span> apresentando o seu produto e com o texto todo estilizado.
+                    </p>
+                </article>
             </section>
-
-            <img src="./images/img1.png" alt="Avatar de uma mulher ao lado de um notebook com um símbolo de cadeado no canto superior direito.">
         </main>
+        
+        <hr aria-hidden="true">
+
         <footer>
-            para mais informações nos siga no instagram @rocketsect
+            para mais informações nos siga no instagram <a href="#" target="_blank">@rocketsect</a>
         </footer>
     </div>
     <img id="padlock" src="./images/padlock.svg" alt="Imagem de um cadeado no canto inferior esquerdo da página">
