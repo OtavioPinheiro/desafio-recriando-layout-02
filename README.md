@@ -12,3 +12,6 @@ O figma da aplicação está disponível no [link](https://www.figma.com/file/Ed
 
 ### Desafio concluído
 Código foi feito de maneira que o site ficasse da forma mostrada no [Figma](https://www.figma.com/file/EdKjPWjC8ZlbnH4XzTObv2/Explorer/duplicate) e com boa semâtica.
+
+#### Resultado:
+![Site](./github/page-resultado-desafio.png)
